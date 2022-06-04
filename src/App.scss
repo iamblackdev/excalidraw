@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  position: relative;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.excalidraw-wrapper {
+  height: 100vh;
+  margin: 0;
+}
+
+.theme_label {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  z-index: 2;
+}
+
+:root[dir="ltr"]
+  .excalidraw
+  .layer-ui__wrapper
+  .zen-mode-transition.App-menu_bottom--transition-left {
+  transform: none;
+}
+
+.excalidraw .panelColumn {
+  text-align: left;
+}
+
+.excalidraw {
+  --color-primary: #faa2c1;
+  --color-primary-darker: #f783ac;
+  --color-primary-darkest: #e64980;
+  --color-primary-light: #fcc2d7;
+  --color-primary-chubb: #faa2c1;
+}
